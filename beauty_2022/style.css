@@ -1,0 +1,301 @@
+/* * */
+body{
+    margin: 0;
+    padding: 0;
+}
+h1, h2{
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20;
+}
+/* 1 page */
+.first_div{
+    background-color: #dddbf3;
+    padding-top: 0.6%;
+    padding-bottom: 0.6%;
+}
+.first_text{
+    color: #606068;
+    font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+      line-height: 1.6;
+    text-align: center;
+    font-size: 17px;
+    margin: 0;
+}
+.smth_of_beauty{
+    margin: 0;
+    padding: 0;
+}
+#smth_text{
+    width: 15%;
+    height: 20%;
+}
+.smth_text{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+
+}
+.diversity_background{
+    background: url(images/back.jpg) 100% 100% no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+.diversity_text{
+    margin: 0;
+    text-align: right;
+    padding-right: 2%;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 50px;
+ 
+}
+.diversity_text1{
+    padding-top: 29%;
+    text-align: right;
+    margin: 0;
+    padding-right: 2%;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 50px;
+    
+}
+.diversity_text4{
+    text-align: right;
+    margin: 0;
+    padding-right: 2%;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 50px;
+    padding-bottom: 4%;
+}
+/* 2 page */
+.second_div{
+    background-color: #fdf8f8;
+    display: flex;
+    justify-content: center;
+}
+#img22{
+    width: 100%;
+    margin-right: 50%;
+}
+#img2{
+    width: 100%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+#img2s, #img222, #img2ss{
+    width: 100%;
+}
+.customization-process-second{
+    display: flex;
+    justify-content: center;
+    padding: 5%;
+}
+.customization-process{
+    padding-top: 2%;
+}
+.customization-text{
+    font-family: 'Karla', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+.customization-second-text{
+    padding-right: 5%;
+    margin-top: 0;
+    font-family: 'Karla', sans-serif;
+    font-size: 18px;
+}
+#img4s{
+    width: 80%;
+    
+}
+#img5s{
+    width: 80%;
+}
+/* 3 page */
+.read2{
+    background: url(images/11s.png)100% 100% no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+.read-text{
+    text-align: center;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 30px;
+    margin-top: 6%;
+}
+.read-text2{
+    text-align: center;
+    font-family: 'Karla', sans-serif;
+    font-size: 20px;
+}
+.arrows{
+    display: flex;
+    justify-content: center;
+}
+.arrows>div{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+#img7s1, #img7s2, #img7s3{
+    width: 80%;
+}
+#img8s, #img9s, #img10s{
+    width: 70%;
+}
+#img7s2{
+    margin-left: 15%;
+}
+#img8s{
+    margin-left: 2%;
+}
+#img9s{
+    margin-left: 16%;
+}
+#img10s{
+    margin-left: 29%;
+}
+.r1{
+    padding-left: 5%;
+    text-decoration: underline;
+    color: black;
+    font-family: 'Karla', sans-serif;
+}
+.r2{
+    padding-left: 20%;
+    text-decoration: underline;
+    color: black;
+    font-family: 'Karla', sans-serif;
+}
+.r3{
+    padding-left: 33%;
+    text-decoration: underline;
+    color: black;
+    font-family: 'Karla', sans-serif;
+}
+a{
+    color: black;
+}
+a:hover{
+    color: #dddbf3;
+}
+.read_photo{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10%;
+}
+/* 4 page */
+
+hr{
+    background-color: #f1f1f1; 
+    color: #f1f1f1; 
+    height: 3px;
+    margin: 2%;
+    border: none;
+}
+li{
+    list-style-type:none;
+    padding-top: 2%;
+}
+ul{
+    font-size: 22px;
+    font-family: 'Karla', sans-serif;
+
+}
+.ul-back{
+    /* background: url(images/33s.jpg) 140% 140% no-repeat; */
+    /* background-color: #fdf8f8; */
+    background-image: url(images/33s.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1450px;
+    height: 400px;
+    /* margin-top: 5%; */
+    padding-bottom: 3%;
+
+}
+.ul1{
+    font-family: Apercu;
+    font-size: 25px;
+    margin-left: 2%;
+    margin-bottom: 4%;
+    margin-top: 3%;
+}
+.ul2{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 25px;
+    margin-left: 2%;
+    margin-bottom: 5%;
+}
+/* 5 page */
+
+.page5{
+    margin-top: 5%;
+    background: url(images/ssl.png) 50% 60% no-repeat;
+}
+.str5 > div{
+    padding-right: 6%;
+}
+
+.determine{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 40px;
+    text-align: center;
+}
+.page5_text{
+    font-family: 'Karla', sans-serif;
+    font-size: 20px;
+    margin-left: 3%;
+    margin-bottom: 1%;
+    padding-top: 4%;
+    padding-bottom: 12%;
+}
+/* 6 page */
+.page6{
+    display: flex;
+    justify-content: center;
+    background-color: #fdf8f8;
+    padding-bottom: 5%;
+}
+
+#img19s{
+    width: 800px;
+    height: 400px;
+}
+.page6_text{
+    margin-left: 5%;
+    font-size: 23px;
+    margin-right: 5%;
+    margin-top: 2%;
+    font-family: 'Karla', sans-serif;
+}
+.r6{
+    margin-top: 18%;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'DM Sans', sans-serif;
+}
+/* 7 page */
+#img21s{
+    width: 100%;
+    height: 440px;
+}
+.page7{
+    background-color: #dddbf3;
+}
+#img20s{
+    width: 50%;
+    height: 200px;
+}
+#img23s{
+    width: 200px;
+    height: 40px;
+    margin-left: 5%;
+    margin-top: 3%;
+}
+.page7_text{
+    margin-left: 5%;
+    font-size: 20px;
+    font-family: 'DM Sans', sans-serif;
+}
+.img20s{
+    text-align: center;
+}

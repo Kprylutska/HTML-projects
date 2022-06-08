@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" type="text/css"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap" rel="stylesheet">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel&family=Gloria+Hallelujah&family=Indie+Flower&family=Pangolin&family=Special+Elite&display=swap" rel="stylesheet">
+    
+    <title>CDV</title>
+</head>
+<body>
+    <div class="menu">
+        <div class="">
+            <p class="logo"><a href="index.html">Goose Team</a></p>
+        </div>
+        <div class="menu1">
+            <form action="cdv.html">
+                <button class="btn_menu">CDV</button>
+            </form>
+            <form action="kalkulator.html">
+                <button class="btn_menu">Zadania</button>
+            </form>
+            <form action="tictactoe/index.html">
+                <button class="btn_menu">Game</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="cdv">
+        <img src="img/unnamed-2.png" class="img1">
+        <p class="cdv_t">Collegium Da Vinci w Poznaniu to jedna z najstarszych niepublicznych uczelni w Wielkopolsce. Od ponad 20 lat z powodzeniem działa na polskim rynku edukacyjnym.</p>
+    </div>
+
+    <div class="cdv1">
+        <div><img src="img/slider-03.jpg" class="img2"></div>
+        <div>
+            <canvas id="myCanvas" class="canva" width="500" height="100"></canvas>
+            <p class="canva_text">Ciekawość jest najpotężniejszą cechą ludzką, która popycha ludzi do ciągłego rozwoju. CDV to miejsce, w którym studenci z zainteresowaniem i z przyjemnością zdobywają wiedzę. Zarówno studenci, absolwenci, jak i pracownicy to osoby nie tylko ciekawe świata, ale także pełne pasji w odkrywaniu nowych rzeczy i w pozytywny sposób wpływające na swoje otoczenie.</p>
+            <script>
+                var c = document.getElementById("myCanvas");
+                var ctx = c.getContext("2d");
+                ctx.font = "30px Arial";
+                ctx.strokeText("Uczelnia ludzi ciekawych. Zadanie 7",10,50);
+            </script>
+        </div>
+    </div>
+    <hr/>
+
+    <div class="img_cdv">
+        <div><img src="img/slider-03.jpg" class="img2"></div>
+        <div><img src="img/cdv-foto-1-1.jpg" class="img2"></div>
+        <div><img src="img/1_b.jpg" class="img2"></div>
+    </div>
+
+    <p class="kszt">Jakość kształcenia</p>
+    <p class="canva_text1">Wysoką jakość kształcenia w Collegium Da Vinci zagwarantuje wdrożony i ciągle doskonalony Wewnętrzny System Zapewnienia Jakości Kształcenia, który uwzględnia specyficzne potrzeby Uczelni.</p>
+    <p class="canva_text1">Zadanie 5</p>
+
+    <form action="https://www.youtube.com/watch?v=3PdoE4DtFzs&t=1570s" method="get" target="_blank">
+        <button type="submit" class="btn_cdv">CDV</button>
+    </form>
+    <p class="canva_text2">Naciśnij na przycisk 'CDV' eby obejrzeć filmik, związany z przyszłością edukacji :)</p>
+</body>
+</html>

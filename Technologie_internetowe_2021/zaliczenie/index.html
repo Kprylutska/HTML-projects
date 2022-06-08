@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" type="text/css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel&family=Gloria+Hallelujah&family=Indie+Flower&family=Pangolin&family=Special+Elite&display=swap" rel="stylesheet">
+    <title>Zaliczenie</title>
+</head>
+<body>
+    <div class="menu">
+        <div>
+            <p class="logo"><a href="index.html">Goose Team</a></p>
+        </div>
+        <div class="menu1">
+            <form action="cdv.html">
+                <button class="btn_menu">CDV</button>
+            </form>
+            <form action="kalkulator.html">
+                <button class="btn_menu">Kalkulator</button>
+            </form>
+            <form action="tictactoe/index.html">
+                <button class="btn_menu">Game</button>
+            </form>
+        </div>
+    </div>
+    <div>
+        <img src="img/goose_team.jpeg" class="goose_img">
+    </div>
+    <div class="surnames">
+        <div>Mykhailo Tkachenko</div>
+        <div>Karyna Prylutska</div>
+        <div>Ihor Proskurnia</div>
+    </div>
+  <form onsubmit="wynik()">
+    <div class="zad-div-n1">
+        <label class="zad-n1">Proszę wpisać ocenę</label>
+    </div> 
+    <div>
+        <input type="text" id="n1" class="input_math_act"><br>
+    </div>
+    <div class="maths_btns_area">
+        <div>
+            <button type="submit" class="btn_grade" id="out">Submit</button>
+        </div>
+    </div>
+  </form>
+  <script>
+    let word1;  
+    let word2;
+    let word3;
+    let out = document.getElementById('out');
+
+    function wynik()
+    {
+        word1 = document.getElementById('n1').value; 
+
+        alert("Dziękujemy :)")
+    }
+  </script>
+
+</body>
+</html>

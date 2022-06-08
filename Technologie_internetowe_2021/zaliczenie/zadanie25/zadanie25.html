@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css" type="text/css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel&family=Gloria+Hallelujah&family=Indie+Flower&family=Pangolin&family=Special+Elite&display=swap" rel="stylesheet">
+    <title>Zadanie 25</title>
+</head>
+<body>
+  <div class="menu">
+    <div class="">
+        <p class="logo"><a href="../index.html">Goose Team</a></p>
+    </div>
+    <div class="menu1">
+        <form action="../cdv.html">
+            <button class="btn_menu">CDV</button>
+        </form>
+        <form action="../kalkulator.html">
+            <button class="btn_menu">Kalkulator</button>
+        </form>
+        <form action="../tictactoe/index.html">
+            <button class="btn_menu">Game</button>
+        </form>
+    </div>
+  </div>
+
+
+  <p class="txt_task">Zadanie 25</p>
+  <p class="txt_desc_task">To symulator dodawanie pisemnego. Tutaj można zobaczyć obliczenia tak jakby były wykonywane na kartce</p>
+  <div class="zad-div-n1">
+    <label class="zad-n1">Proszę wpisać pierwszą liczbę</label>
+  </div> 
+  <div>
+    <input type="text" id="firstNum" class="input_math_act"><br>
+  </div>
+  <div class="zad-div-n1">
+    <label class="zad-n1">Proszę wpisać drugą liczbę</label>
+  </div> 
+  <div>
+    <input type="text" id="secondNum" class="input_math_act"><br>
+  </div>
+  <button class="zad-btn" onclick="Sum()">result</button>
+  <div class="txt_result">
+    <div>
+      <p class="wynik">Wynik:</p>
+    </div>
+    <div>
+      <p id="result" class="z25-res"></p> 
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>

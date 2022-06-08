@@ -1,0 +1,144 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+.main{
+    background-color: rgb(80, 110, 117);
+    /* height: 50%; */
+}
+.menu{
+    display: flex;
+    justify-content: flex-end;
+}
+.menu > div{
+    margin: 20px;
+}
+.img_menu{
+    width: 40px;
+    height: 40px;
+}
+
+.main_desc{
+    padding-bottom: 2%;
+    text-align: center;
+    padding-top: 0;
+}
+.galary{
+    background-color: rgb(180, 160, 146);
+    /* width: 90%; */
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.img_galary{
+    width: 70%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+.account{
+    background-color: rgb(80, 110, 117);
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 1%;
+}
+.label_account{
+    font-size: 50px;
+    font-weight: bold;
+}
+form{
+    padding-top: 10px;
+}
+input{
+    border: none;
+    border-radius: 15px;
+    line-height: 40px;
+    width: 15%;
+    margin-top: 1%;
+}
+.login{
+    padding-bottom: 2%;
+    font-size: 25px;
+}
+.cart{
+    background-color: rgb(180, 160, 146);
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 2%;
+}
+.flex_cart{
+    display: flex;
+    justify-content: center;
+}
+.flex_cart > div{
+    margin-left: 6%;
+    margin-bottom: 2%;
+} 
+.form_sign{
+    background-color: rgb(80, 110, 117);
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 2%;
+    text-align: center;
+}
+.sign_up{
+    padding-bottom: 2%;
+    font-size: 25px;
+}
+.contact{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 2%;
+}
+.arrow{
+    text-align: end;
+    margin-right: 5%;
+}
+.title{
+    font-weight: bolder;
+    font-size: 60px;
+    padding-top: 0;
+}
+.description{
+    font-size: 30px;
+    margin-top: 0;
+}
+.title_cart{
+    text-align: center;
+    font-size: 50px;
+}
+.cart_desc{
+    font-size: 20px;
+    margin-top: 0;
+}
+.cart_price{
+    font-size: 20px;
+    font-weight: bold;
+}
+.contact_info{
+    font-size: 23px;
+}
+.copyright{
+    text-align: center;
+    margin-top: 3%;
+    font-size: 20px;
+}
+.link_sign, .link_buy{
+    text-align: center;
+}
+.sign_up_btn, .buy_btn{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: 'Work Sans', sans-serif;
+}
+.img1{
+    padding-top: 0;
+    width: 40%;
+    height: 60%;
+}

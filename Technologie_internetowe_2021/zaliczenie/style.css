@@ -1,0 +1,370 @@
+/* divs */
+.cdv{
+    padding-top: 50px;
+}
+.cdv1{
+    display: flex;
+    justify-content: center;
+}
+.cdv1 > div{
+    margin-left: 30px;
+    margin-right: 100px;
+}
+.zad-cz{
+    font-size: 60px;
+    font-family: 'Pangolin', cursive;
+    margin-top: 15%;
+}
+.maths_btns_area{
+    display: flex;
+    justify-content: center;
+}
+.maths_btns_area > div{
+    margin-top: 4%;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.first_btns_row{
+    display: flex;
+    justify-content: center;
+}
+.second_btns_row{
+    display: flex;
+    justify-content: center;
+}
+.third_btns_row{
+    display: flex;
+    justify-content: center;
+}
+.menu{
+    position: absolute;
+    width: 100%;
+    height: 10%;
+    left: 0px;
+    top: 0px;
+    display: flex;
+    background: #2274A5;
+    justify-content: flex-end;
+}
+.menu > div {
+    font-size: 30px;
+}
+.menu1{
+    display: flex;
+    justify-content: flex-end;
+}
+.surnames{
+    display: flex;
+    justify-content: center;
+}
+.surnames > div{
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    /* padding: 45px; */
+    padding-left: 3%;
+    padding-right: 6%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+
+
+
+/* images */
+.img1{
+    width: 400px;
+    height: 200px;
+}
+.img2{
+    width: 400px;
+    height: 300px;
+    margin-top: 30px;
+}
+.img_cdv{
+    display: flex;
+    justify-content: center;
+}
+.img_cdv > div{
+    margin-right: 53px;
+    margin-left: 25px;
+    border-radius: 50px;
+}
+.goose_img{
+    width: 30%;
+    margin-top: 7%;
+    margin-left: 35.5%;
+}
+
+
+
+
+
+/* text */
+.z25-res{
+    margin-right: 50%;
+}
+.txt_tasks{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: black;
+    margin-top: 10%;
+    margin-bottom: 4%;
+}
+.cdv_t{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 20px;
+    margin-left: 28px;
+}
+.canva_text{
+    margin-top: 0;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-size: 23px;
+}
+.canva_text1{
+    font-family: 'Hind Siliguri', sans-serif;
+    /* font-weight: bold; */
+    font-size: 23px;
+    margin-left: 20px;
+    margin-right: 15px;
+}
+.kszt{
+    font-family: 'Hind Siliguri', sans-serif;
+    font-weight: bold;
+    font-size: 23px;
+    margin-left: 20px;
+    text-decoration: underline;
+}
+.txt_result{
+    display: flex;
+    justify-content: center;
+}
+.txt_result >div{
+  margin-left: 20px;
+  margin-top: 0.5%;
+  padding-left: 10px;
+}
+.z25-res{
+    font-size: 20px;
+    font-family: 'Pangolin', cursive;
+}
+.z24-res{
+    font-size: 30px;
+    font-family: 'Pangolin', cursive;
+    padding-top: 11px;
+}
+.z8-res{
+    font-size: 30px;
+    font-family: 'Pangolin', cursive;
+    padding-top: 11px;
+}
+.canva_text2{
+    font-family: 'Hind Siliguri', sans-serif;
+    font-size: 23px;
+    margin-left: 20px;
+    margin-right: 15px;
+    margin-bottom: 80px;
+}
+.wynik{
+    font-size: 35px;
+    font-family: 'Pangolin', cursive;
+    color: tomato;
+}
+.txt_task{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: black;
+    margin-top: 7%;
+    margin-bottom: 2%;
+}
+.txt_desc_task{
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    margin-bottom: 4%;
+}
+
+
+
+
+/* other */
+a{
+    position: absolute;
+    width: 218px;
+    height: 0px;
+    left: 20px;
+    font-family: Handlee;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 16px;
+    display: flex;
+    color: #FBF4F4;
+    margin-left: 2%;
+    text-decoration: none;
+}
+canvas{
+    text-align: center;
+    padding-left: 150px;
+    padding-top: 20px;
+    color: red;
+}
+hr{
+    margin-top: 110px;
+    size: 10px;
+    color: #0D0C38;
+}
+body{
+    max-height: 10000px;
+}
+
+/* inputs */
+.firstNum{
+    margin-left: 15px;
+    margin-top: 10px;
+    width: 50%;
+    border-radius: 4px;
+}
+.zad-div-n1{
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Pangolin', cursive;
+    margin-top: 20px;
+}
+.input_math_act{
+    margin-left: 45%;
+    margin-top: 1.5%;
+    border-radius: 10px;
+    width: 10%;
+    height: 30px;
+    font-size: 20px;
+    text-align: center;
+}
+.number{
+    text-align: center;
+}
+.input_math_act24{
+    margin-left: 43%;
+    margin-top: 1.5%;
+    border-radius: 10px;
+    width: 14%;
+    height: 30px;
+    font-size: 20px;
+    text-align: center;
+}
+
+/* buttons */
+.btn_res{
+    border-radius: 10px;
+    color: #0D0C38;
+    background-color: white;  
+    border: 2px solid green;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+.math_btn{
+    border-radius: 10px;
+    color: white;
+    background-color: #3AB795;  
+    border: 2px solid #3AB795;
+    width: 50px;
+    height: 50px;
+    font-size: 27px;
+}
+.btn_to_task{
+    border-radius: 10px;
+    color: black;
+    background-color: #FED766;  
+    border: 2px solid #FED766;
+    height: 150px;
+    width: 150px;
+    margin: 10px;
+    font-size: 33px;
+    font-family: 'Roboto', sans-serif;
+}
+.btn_to_task:hover{
+    cursor: pointer;
+    transform: translateY(-4px);
+}
+.zad-btn{
+    margin-left: 46.6%;
+    margin-top: 20px;
+    color: white;
+    background-color: #3AB795;  
+    border: 2px solid #3AB795;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.zad-btn:hover {
+    cursor: pointer;
+    transform: translateY(-2px);
+    color: black;
+    background-color: #FED766;
+    border: 2px solid #FED766;
+}
+.btn_menu{
+    font-family: Droid Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    display: flex;
+    align-items: center;
+    text-decoration-line: none;
+    padding: 30px;
+    background-color: #2274A5;
+    border: none;
+    color: #FBF4F4;
+    line-height: 97%;
+}
+.btn_menu:hover{
+    cursor: pointer;
+    background-color: #FED766;
+    color: black;
+}
+.btn_grade{
+    border-radius: 10px;
+    color: white;
+    background-color: #3AB795;  
+    border: 2px solid #3AB795;
+    width: 110px;
+    height: 40px;
+    font-size: 20px;
+    margin-bottom: 50%;
+}
+.btn_cdv{
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    margin-left: 18px;
+    background-color: #FED766;
+    border: 2px solid #FED766;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

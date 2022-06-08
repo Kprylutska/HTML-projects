@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+<META charset="utf-8">
+<title> My first pages </title>
+<style>
+nav {
+  width: 1200px;
+  margin: 0 auto;
+}
+nav::before {
+  content: '';
+  display: block;
+  height: 50px;
+  width: 100%;
+  background: Black;
+  position: absolute;
+  left: 0;
+  z-index: -1;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  height: 50px;
+}
+ul li {
+  float: left;
+}
+ul li a{
+  color:MediumTurquoise;
+  display: block;
+  height: 40px;
+  padding: 0 30px;
+  text-transform: uppercase;
+  text-decoration: none;
+  line-height: 50px;
+}
+ul li a:hover{
+  border-bottom: 1px solid mediumTurquoise;
+
+}
+.round {
+    border-radius: 650px; /* Радиус скругления */
+    border: 3px solid mediumTurquoise; /* Параметры рамки */
+    box-shadow: 0 0 7px #666;
+    text-align: center;
+    margin-top: 100px;
+
+  }
+  .line {
+      width: 1200px;
+      height: 230px;
+      border-bottom: 2px solid mediumTurquoise;
+      }
+  .line1{
+    width: 1200px;
+    height: 1700px;
+    border-bottom: 2px solid mediumTurquoise;
+    }
+    #top {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color:mediumTurquoise;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+  }
+
+  #top:hover {
+    background-color: #555;
+  }
+
+</style>
+</head>
+<body style="background-color:Black">
+  <button onclick="topFunction()" id="top" title="Go to top">Top</button>
+  <nav>
+    <ul id="nav">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#test">Test Gallup</a></li>
+      <li><a href="#sport">Sport</a></li>
+      <li><a href="#life">My Life</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+
+<img src="1.jpg" alt=""class="round" align="left" width="400" height="400" space="500" vspace="40">
+<p align="center" style="font-size: 30px; color:Gainsboro; margin-top: 110px">Dzień dobry. Nazywam się Karyna Prylutska, mam 18 lat i jestem początkującą programistką. Jestem młodą, kreatywną osobą, która zawsze się rozwija. Mam silną wewnętrzną motywację – źródło intensywności, energii i siły, która pozwala mnie przekraczać granice, aby osiągnąć cel. Zawsze jestem skupiona na celu. Jeszcze nie mam doświadczenia w obszarze IT, ale jestem pracowitą i chętną do uczenia czegoś nowego. Programuję w C++, C i zaczęłam uczyć się HTML i CSS.</p>
+<div id="about" class="line"> &nbsp; </div>
+<div style="font-size: 35px; color:mediumTurquoise; margin-top: 80px"> O mnie</div>
+<p align="center" style="font-size: 40px; color:LightCoral; margin-top: 50px">It's me:)</p>
+<img src="m4.jpg" alt="" class="round" align="left" width="393" height="393" space="500" vspace="40">
+<img src="ja4.jpg" alt="" class="round" align="left" width="393" height="393" space="500" vspace="40">
+<img src="m22.jpg" alt="" class="round" align="left"  width="393" height="393" space="500" vspace="40">
+<p style="font-size: 24px; color:Gainsboro; margin-top: 80px">Urodziłam się na Ukrainie, w małym miasteczku. Z dzieciństwa jestem mega energiczną osobą i moje rodzice zawsze mieli ze mną kłopoty. Byłam i jestem dobrą i komunikatywną i zawsze znajduję, o czym porozmawiać z nową osobą. Teraz mieszkam i studiuję w Polsce, w Poznaniu. Studiuję na prywatnej uczelni Collegium Da Vinci jako programista na kierunku Aplikacje internetowe i mobilne.
+Podoba mi się tworzenie stron internetowych, bo jestem kreatywną osobą i to mi się pasuję. I więc zaczęłam uczyć nowe języki programowania jak HTML, CSS, PHP. Ta strona jest pierwsza w moim życiu. Z uczelni umiem programować w języku C++ i trochę w C, bo ten język jest trudny i żeby go ogarnąć trzeba dużo czasu.
+I w ogóle jestem miłą, wesołą osobą, która chce się rozwijać, osiągać swoje cele i zawierać nowe znajomości:)</p>
+<p  style="font-size: 24px; color:Gainsboro; margin-top: 80px"> Podoba mi się tworzenie stron internetowych, bo jestem kreatywną osobą i to mi się pasuję. I więc zaczęłam uczyć nowe języki
+programowania jak HTML, CSS, PHP. Ta strona jest pierwsza w moim życiu. Z uczelni umiem programować w języku C++ i trochę w C, bo ten język jest trudny i żeby go ogarnąć trzeba dużo czasu</p>
+<p style="font-size: 24px; color:Gainsboro; margin-top: 80px">I w ogóle jestem miłą, wesołą osobą, która chce się rozwijać, osiągać swoje cele i zawierać nowe znajomości:)</p>
+<div id="test" class="line"> &nbsp; </div>
+<div align="center" style="font-size: 30px; color:mediumTurquoise; margin-top: 80px">Test Gallup</div>
+<p style="font-size: 24px; color:Gainsboro; margin-top: 80px">Na uczelni mam taki przedmiot jako tutoring, na którym dowiedziałam się o sobie więcej. W jednym z zadań trzeba było wziąć udział w teście Gallup. Krótko, to taki test, który wskazuje na moje 5 głównych cechów</p>
+<ins style="font-size: 24px; color:Orange; margin-top: 80px">Wyniki tego testu:</ins>
+<p style="font-size: 24px; color:LightCoral; margin-top: 80px">1.Naprawianie
+<p style="font-size: 24px; color:Gainsboro; margin-top: 20px">Uwielbiasz rozwiązywać problemy. Podczas gdy niektórzy są przerażeni, gdy po raz pierwszy napotykają jakąś trudność, dla ciebie taka sytuacja jest źródłem energii. Uwielbiasz wyzwania związane z analizowaniem symptomów, identyfikowaniem tego, co nieprawidłowe i znajdowaniem rozwiązań. Możesz preferować problemy praktyczne, abstrakcyjne lub też związane z ludźmi. Możesz wyszukiwać specyficzne rodzaje sytuacji problemowych, które wcześniej już spotykałeś/aś i co do których jesteś pewien/pewna, że możesz je naprawić. Możesz też odczuwać wielki impuls do działania, gdy stykasz się z problemami złożonymi i dotychczas ci nieznanymi. Twoje konkretne preferencje są zdeterminowane pozostałymi cechami oraz doświadczeniami. Pewne jest jednak to, że sprawia ci przyjemność fakt, iż dzięki tobie rzeczy na nowo zaczynają funkcjonować. To wspaniałe uczucie identyfikować czynniki, które niszczą, eliminować je i przywracać obiektom swojego zainteresowania ich pierwotną świetność. Intuicyjnie wiesz, że bez twojej interwencji ta rzecz, czy też maszyna, osoba, firma mogłaby w ogóle przestać funkcjonować. Ty ją naprawiłeś/aś, wskrzesiłeś/aś, ożywiłeś/aś lub - jak sam/a pewnie byś to określił/a - ocaliłeś/aś.</p>
+<p style="font-size: 24px; color:LightCoral; margin-top: 80px">2.Osiąganie</p>
+<p style="font-size: 24px; color:Gainsboro; margin-top: 20px">Cecha Osiąganie pomaga wyjaśnić, co jest motorem twojego działania. Czujesz się tak, jak gdyby każdy dzień zaczynał się od zera. Aby być zadowolonym/ą z samego/samej siebie pod koniec każdego dnia, musisz mieć poczucie, że coś konkretnego osiągnąłeś/osiągnęłaś. Przez „każdy dzień" rozumiesz zarówno dni pracy, jak i weekendy i urlopy. Bez względu na to, jak bardzo zasługujesz na odpoczynek, jeżeli dany dzień minie bez żadnego osiągnięcia, będziesz się czuł/a nieusatysfakcjonowany/a. Masz wewnętrzny ogień, który motywuje cię do tego, aby coraz więcej robić i coraz więcej osiągać. Za każdym razem, kiedy uda ci się coś osiągnąć, ogień na chwilę przygasa, ale wkrótce rozpala się na nowo, zmuszając cię do dalszej wspinaczki, ku coraz to nowym celom. Twoja niesłabnąca potrzeba osiągnięć nie zawsze musi być logiczna. Nie musi też być ukierunkowana. Nigdy jednak nie jest zaspokojona. Poczucie niezaspokojenia będzie ci stale towarzyszyć i musisz nauczyć się żyć z odrobiną niezadowolenia z tym związaną. To niezadowolenie przynosi, bądź co bądź, pewne korzyści. Daje ci mianowicie energię potrzebną do tego, aby móc pracować przez długie godziny bez wytchnienia. Jest rodzajem bodźca, na który możesz liczyć, gdy podejmujesz nowe zadania i stawiasz czoła nowym wyzwaniom. Jest źródłem energii, które powoduje, że wyznaczasz tempo pracy i poziom wydajności zespołu, w którym pracujesz. Jest to cecha, która nieustannie pcha cię do przodu</p>
+<p style="font-size: 24px; color:LightCoral; margin-top: 80px">3.Bliskość</p>
+<p style="font-size: 24px; color:Gainsboro; margin-top: 20px">Potrzeba trwałych relacji z ludźmi określa twoje podejście do znajomości i przyjaźni. Krótko mówiąc, cecha ta sprawia, że ciągnie cię raczej w stronę tych, których już znasz. Niekoniecznie stronisz od nowych znajomości - możesz mieć inne silne cechy, które powodują, że cieszysz się sytuacją, w której obcy stają się twoimi znajomymi - ale ogromną przyjemność i siłę czerpiesz z przebywania w pobliżu twoich serdecznych przyjaciół. Nie krępuje cię emocjonalna zażyłość. Gdy już zostanie nawiązana jakaś znajomość, świadomie zachęcasz do jej pogłębiania. Chcesz, żeby twoi przyjaciele dobrze cię poznali i ty chcesz dobrze ich znać. Chcesz rozumieć ich uczucia, cele, obawy, marzenia, chcesz także, żeby oni rozumieli twoje. Zdajesz sobie sprawę z tego, że taki rodzaj stosunków międzyludzkich wiąże się z pewnym ryzykiem - możesz dać się zdominować - ale jesteś gotowy/a je podjąć. Dla ciebie przyjaźń ma wartość tylko wtedy, jeżeli jest autentyczna. Jedynym sposobem, żeby się o tym przekonać jest zaufać drugiej osobie. Im więcej macie wspólnego, tym więcej razem ryzykujecie. Im więcej razem ryzykujecie, tym więcej możliwości wykazania, że wasza troska jest autentyczna. To są twoje kroki w stronę prawdziwej przyjaźni i chętnie je podejmujesz.</p>
+<p style="font-size: 24px; color:LightCoral; margin-top: 80px">4.Rozwijanie innych</p>
+<p style="font-size: 24px; color:Gainsboro; margin-top: 20px">Widzisz potencjał w ludziach. Bardzo często jest to jedyna rzecz, jaką dostrzegasz. Z twojego punktu widzenia nikt nie jest w pełni ukształtowany. Nikt nie jest skończonym, kompletnym dziełem. Przeciwnie - każdy człowiek stale się rozwija i ma w sobie mnóstwo możliwości. I to właśnie fascynuje cię w innych. Gdy wchodzisz z ludźmi w kontakt, chcesz im pomóc poznać smak sukcesu. Szukasz sposobów na stawianie ludziom wyzwań. Obmyślasz interesujące doświadczenia, które mogą rozwijać ich zdolności i pomóc im w rozwoju. Przez cały czas wypatrujesz wyraźnych oznak postępu - zmian w zachowaniu, drobnych postępów w umiejętnościach, przebłysków doskonałości lub płynności tam, gdzie do tej pory wszystko szło jak po grudzie. Twoim zdaniem te małe kroki naprzód - dla innych niewidoczne - są wyraźnym przejawem rozwoju i realizacji możliwości. Te oznaki postępu u innych są dla ciebie źródłem energii. Dają ci siłę i satysfakcję. Z czasem wiele osób będzie szukało zachęty i wsparcia z twojej strony, ponieważ będą widzieli, że twoja pomoc dla nich jest szczera, a dla ciebie samego/samej stanowi źródło nagrody.</p>
+<p style="font-size: 24px; color:LightCoral; margin-top: 80px">5.Empatia</p>
+<p style="font-size: 24px; color:Gainsboro; margin-top: 20px">Potrafisz wyczuwać emocje otaczających cię ludzi. Potrafisz odczuć to, co czują inni, jak gdyby ich emocje były twoimi. Potrafisz intuicyjnie patrzeć na świat oczyma innych ludzi i podzielać ich punkt widzenia. Nie musisz się jednak z nimi zgadzać. Niekoniecznie też jest ci żal z powodu ich kłopotów - byłoby to wówczas współczucie, a nie empatia. Nie zawsze aprobujesz wybory, jakich dokonują ludzie, chociaż je rozumiesz. Ta instynktowna zdolność do rozumienia ma ogromną siłę. Słyszysz niewypowiedziane jeszcze pytania. Przewidujesz czyjeś potrzeby. Podczas, gdy inni mają trudności ze sprecyzowaniem swoich myśli, ty zawsze zdajesz się wiedzieć, jakich słów użyć i jaki ton im nadać. Podsuwasz ludziom odpowiednie określenia, które pomogą im wyrazić - przed sobą i innymi - to, co czują. Pomagasz im wyartykułować ich emocjonalne życie. Wszystko to sprawia, że przyciągasz ludzi. </p>
+<div id="sport" class="line"> &nbsp; </div>
+
+<div align="center" style="font-size: 40px; color:mediumTurquoise; margin-top: 50px">Sport</div>
+<p style="font-size: 24px; color:Gainsboro; margin-top: 50px">Z dzieciństwa zawsze byłam zawodniczką, uprawiałam pływanie 8 lat, w szkole uprawiałam lekkoatletyką, a potem chodziłam do siłowni. Sport to moja druga pasja, nie mogę żyć bez sportu. Kiedy przyjechałam do Polski, to przez jakiś czas nie trenowałam się i po prostu nic nie robiłam, i byłam z tego zła. No a teraz mieszkam w Polsce około roku i co dzień gdzieś o 12 uprawiam sportem, żeby być mega mega piękną.</p>
+<img src="s6.jpg" alt=""  align="left"  width="400" height="350" space="500" vspace="40">
+<img src="s2.jpg" alt=""  align="left" style="margin-left: 60px"width="330" height="350" space="500" vspace="40">
+<img src="s10.jpg" alt="" align="left" style="margin-left: 60px"width="350" height="350" space="500" vspace="40">
+<img src="s11.jpg" alt="" width="340" style="margin-left: 455px" height="390" space="500" vspace="40">
+<div id="life" class="line"> &nbsp; </div>
+<div align="center" style="font-size: 30px; color:mediumTurquoise; margin-top: 80px"> Moje życie w zdjęciach</div>
+<p style="font-size: 24px; color:Gainsboro; margin-top: 80px">Kiedy przyjechałam do Poznania, to byłam zdziwiona, że na tyle przepięknie miasto. Przyjechałam, kiedy było mnie 17 lat, byłam jeszcze dzieckiem, nie znałam nikogo i było mi trochę ciężko. Przez jakiś czas spotykałam swoich przyjaciel i jestem mega szczęśliwa z tego, co mam takich fajnych przyjaciół. Uważam teraz, że to moja druga rodzina, Polska rodzina. Jakby my się nie spotykaliśmy, wtedy nie mieliśmy takie fajne życie.</p>
+<img src="k2.jpg" alt=""  align="left"style="margin-left: 50px" width="300" height="350" space="500" vspace="40">
+<img src="m26.jpg" alt="" align="left" width="400" height="350" space="500" vspace="40">
+<img src="k1.jpg" alt=""  align="left" width="350" height="350" space="500" vspace="40">
+<img src="m3.jpg" alt=""  align="left"style="margin-left: 30px" width="300" height="400" space="500" vspace="40">
+<img src="m8.jpg" alt=""  align="left" width="400" height="350" space="500" vspace="40">
+<img src="m24.jpg" alt=""  align="left" width="400" height="400" space="500" vspace="40">
+<img src="m7.jpg" alt=""  align="left" width="400" height="300" space="500" vspace="40">
+<img src="m6.jpg" alt=""  align="left" width="400" height="300" space="500" vspace="40">
+<img src="m9.jpg" alt="" c align="left" width="400" height="300" space="500" vspace="40">
+<div class="line1"> &nbsp; </div>
+<div id="contact"align="center" style="font-size: 30px; color:mediumTurquoise; margin-top: 80px">Kontakt</div>
+<div align="center" style="font-size: 30px; color:mediumTurquoise; margin-top: 80px">Gotowa do spółpracy</div>
+<div align="center" style="font-size: 30px; color:mediumTurquoise; margin-top: 80px">E-mail:karinapriluckaa76@gmail.com</div>
+<div align="center" style="font-size: 30px; color:mediumTurquoise; margin-top: 80px">Telefon:+48575530929</div>
+<script>
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("top").style.display = "block";
+    } else {
+        document.getElementById("top").style.display = "none";
+    }
+}
+
+function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}
+
+</script>
+
+
+</body>
+</html>
